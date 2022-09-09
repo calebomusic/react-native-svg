@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.authors           = 'Horcrux Chen'
   s.platforms         = { :osx => "10.14", :ios => "9.0", :tvos => "9.2" }
   s.source            = { :git => 'https://github.com/react-native-community/react-native-svg.git', :tag => "v#{s.version}" }
+  s.static_framework = true
 
   if fabric_enabled
     # folly_version must match the version used in React Native
